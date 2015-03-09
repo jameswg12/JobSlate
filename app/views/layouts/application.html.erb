@@ -2,12 +2,18 @@
 <html>
 <head>
   <title>JobSlate</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div class= "Jumbotron">
+    <h1> Welcome to BikeBerlin </h1>
+  </div>
+  <h2> Its the best place to get used bikes </h2>
+  
 <%= yield %>
 
 </body>
