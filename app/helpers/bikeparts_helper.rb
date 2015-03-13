@@ -1,0 +1,2 @@
+module BikepartsHelper
+end

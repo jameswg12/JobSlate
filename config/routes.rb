@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :bikeparts
+
   resources :products
 
   get 'static_pages/index'

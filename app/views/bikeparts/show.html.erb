@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @bikepart.product_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bikepart.description %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @bikepart.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_bikepart_path(@bikepart) %> |
+<%= link_to 'Back', bikeparts_path %>
